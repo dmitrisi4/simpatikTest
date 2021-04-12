@@ -1,0 +1,20 @@
+{
+  "name": "simpatikTest",
+  "version": "1.0.0",
+  "scripts": {
+    "clear": "rimraf dist .parcel-cache .cache",
+    "dev": "npm run clear && parcel src/index.html",
+    "build": "npm run clear && parcel build src/index.html --public-url . --no-source-maps"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.2"
+  },
+  "dependencies": {
+    "postcss": "^8.2.9",
+    "postcss-color-function": "^4.1.0",
+    "postcss-nested": "^5.0.5"
+  }
+}
